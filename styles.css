@@ -1,0 +1,28 @@
+body {
+  background-color: #d6e1ef;
+  font-family: Outfit, sans-serif;
+
+  p {
+    font-size: 15px;
+  }
+}
+
+.qr-container {
+  background-color: #fff;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 350px;
+  padding: 20px 25px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
