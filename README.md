@@ -37,14 +37,19 @@ Mobile
 - CSS3 with variables for colours
 - Flexbox
 - Media query for mobile viewports up to 375px
+- Hover state when mouse pointer is over the container
+- Media query with prefers reduce motion to remove animations if the user has enabled it in their operation system's settings.
+- QR Code is also a clickable link if user prefers to click or tap.
 
 ### What I learned
 
 This was a relatively straightforward HTML and CSS component. The major challenges were finding a feasible solution to preventing the QR code image from expanding outside its parent container. Using a width of 100% on the img class. Finally, it was important that I constrain the size of the entire qr component so that it was not oversized for desktop and tablet viewports.
 
+While most of the css selectors for animations or effects should be within the :hover CSS psuedo-class, the transition should be added as styling to the original selector .qr-container.
+
 ### Continued development
 
-Some ideas for continued development include making the qr code "clickable" or selectable using a mouse or touch screen tap.
+"Clickable" qr code is now working and was implemented Monday June 10th. The link is also selectable using keyboard navigation. Open to feedback for additional features and styling enhancements.
 
 ### Useful resources
 
